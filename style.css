@@ -1,0 +1,318 @@
+
+.header {
+  border: 3px solid #b8ff06;
+  border-radius: 10px 10px 0px 0px;
+  width: 70%;
+  min-height: 100px;
+  margin: auto;
+}
+.header p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 50px;
+  background: #b8ff06;
+  padding: 5px;
+  color: #000000;
+}
+.link {
+  color: #18d848;
+  font-style: bold;
+  text-decoration: none;
+}
+.link:hover {
+  font-style: bold;
+  background: #b8ff06;
+  border-radius: 4px;
+  color: #000000;
+  padding: 2px;
+}
+nav {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul {
+  background: #b8ff06;
+  padding: 0px;
+  list-style: none;
+  border-radius: 50px;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+}
+nav ul li {
+  float: left;
+}
+nav ul li.login {
+  float: right;
+  padding: 0px;
+  background: #D5B048;
+
+}
+nav ul li.login:hover {
+  background: #a7a7a7;
+}
+nav ul li.logout {
+  float: right;
+  padding: 0px;
+  background: #D5B048;
+  border-left: 4px solid #ffffff;
+}
+nav ul li.logout:hover {
+  background: #ffffff;
+}
+nav ul li:hover {
+  background: #b8ff06;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  color: #000000;
+  text-decoration: none;
+}
+.box-title {
+  
+  background: #b8ff06;
+  width: 90%;
+  border-radius: 10px;
+  height: 30px;
+  margin: auto;
+  border: 3px solid #b8ff06;
+}
+.box-title p {
+  text-align: center;
+  color: #000000;
+  margin: 5px 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#box {
+  border-bottom: 0px;
+  border-left: 3px solid #b8ff06;
+  border-right: 3px solid #b8ff06;
+  width: 90%;
+  margin: auto;
+  min-height: 200px;
+  overflow: hidden;
+}
+
+table.news {
+  border-collapse: collapse;
+  width: 100%;
+}
+.news td {
+  padding: 15px;
+  border: 1px solid black;
+}
+.news th {
+  background-color: #b8ff06;
+  color: rgb(0, 0, 0);
+  height: 50px;
+}
+.news tr:hover {
+  background-color: #d8d8d8;
+}
+table.article {
+  border-collapse: collapse;
+  border: 0px;
+  width: 100%;
+}
+.article td {
+  border: 0px;
+  padding: 10px;
+}
+.article tr:hover {
+  background-color: #e1e1e1;
+}
+
+.paging {
+  text-align: center;
+  margin: 20px;
+}
+.paging span {
+  padding: 5px 20px;
+  margin-right: 5px;
+  background: #eee;
+  border-radius: 10px;
+}
+
+#box p,
+h1,h2,
+table,
+tr,
+td,
+img {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 20px;
+text-align: justify;
+}
+table tr td.list:hover {
+background: #b8ff06;
+border-radius: 5px;
+}
+
+.keranjang-title {
+background: #cacaca;
+width: 90%;
+height: 40px;
+border-radius: 10px;
+margin: auto;
+margin-bottom: 20px;
+border: 3px solid #cacaca;
+}
+.keranjang-title p {
+color: #000000;
+margin: 5px 5px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
+#keranjang {
+border-bottom: 3px solid #cacaca;
+border-left: 3px solid #cacaca;
+border-right: 3px solid #cacaca;
+width: 70%;
+margin: auto;
+min-height: 100px;
+overflow: hidden;
+}
+#keranjang p {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 20px;
+text-align: justify;
+}
+.footer {
+background: #b8ff06;
+border-radius: 0px 0px 10px 10px;
+border: 3px solid #b8ff06;
+width: 70%;
+margin: 10px auto;
+}
+.footer p {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #000000;
+margin: auto;
+padding: 5px;
+text-align: center;
+}
+
+.tombol-biru {
+background: #18d848;
+color: white;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+border-radius: 5px;
+padding: 5px 20px;
+text-decoration: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 11pt;
+margin: 10px;
+}
+.tombol-biru:hover {
+background: #9b9b9b;
+color: white;
+border-radius: 5px;
+padding: 5px 20px;
+text-decoration: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 11pt;
+}
+
+.tombol-merah {
+background: #D5B048;
+color: white;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+border-bottom: 4px solid #D5B048;
+border-radius: 5px;
+padding: 5px 20px;
+text-decoration: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 11pt;
+}
+.tombol-merah:hover {
+background: #D5B048;
+color: white;
+border-radius: 5px;
+padding: 5px 20px;
+text-decoration: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 11pt;
+}
+
+.jersey {
+background: #000;
+width: 200px;
+}
+.pesan {
+background: #d2d2d2;
+margin: 10px;
+border-radius: 5px;
+}
+.pesan p {
+color: #000000;
+}
+
+
+
+
+
+
+/* Styling untuk ukuran layar besar */
+@media screen and (min-width: 768px) {
+  .header {
+    width: 70%;
+  }
+
+  nav {
+    width: 50%;
+  }
+
+  .box-title,
+  #box,
+  .keranjang-title,
+  #keranjang,
+  .footer {
+    width: 70%;
+  }
+}
+
+/* Styling untuk ukuran layar menengah */
+@media screen and (max-width: 767px) {
+  .header {
+    width: 90%;
+  }
+
+  nav {
+    width: 70%;
+  }
+
+  .box-title,
+  #box,
+  .keranjang-title,
+  #keranjang,
+  .footer {
+    width: 90%;
+  }
+}
+
+/* Styling untuk ukuran layar kecil */
+@media screen and (max-width: 480px) {
+  .header p {
+    font-size: 30px;
+  }
+
+  nav {
+    width: 90%;
+  }
+
+  .box-title,
+  #box,
+  .keranjang-title,
+  #keranjang,
+  .footer {
+    width: 100%;
+  }
+}

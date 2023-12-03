@@ -1,0 +1,139 @@
+
+body {
+  background: #455;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login {
+  width:400px;
+  margin: 100px auto;
+  font-size: 16px;
+}
+
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.login-header {
+  background: #b8ff06;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  border-bottom: 5px solid #b8ff06;
+  border-radius: 10px 10px 0px 0px;
+}
+.login-container {
+  background: #ebebeb;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.login p {
+  color: #383838;
+  padding: 12px;
+}
+.login input,textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  border-radius: 5px;
+}
+.login input[type="Text"],
+.login input[type="password"],
+.login input[type="email"],
+.login textarea {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus,
+.login input[type="email"]:focus,
+.login textarea:focus {
+  border: 1px solid #b8ff06;
+}
+.login input[type="submit"] {
+  background: #b8ff06;
+  color: #000000;
+  cursor: pointer;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:6px solid #b8ff06;
+}
+.login input[type="submit"]:hover {
+  background: #b8ff06;
+}
+
+.login input[type="submit"]:focus {
+  border-color: #b8ff06;
+}
+
+a {
+  text-decoration: none;
+  color:#000000;
+}
+a:hover {
+  background:#b8ff06;
+  border-radius: 5px;
+  padding: 5px;
+  color: #000000;
+}
+.tombol-biru{
+  background:#b8ff06;
+  color:rgb(0, 0, 0);
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-radius: 5px;
+  padding:5px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+.tombol-biru:hover {
+  background:#999999;
+  color:rgb(0, 0, 0);
+  border-radius: 5px;
+  padding:5px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+
+.tombol-merah{
+  background:#D5B048;
+  color:rgb(0, 0, 0);
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:4px solid #D5B048;
+  border-radius: 5px;
+  padding:5px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+.tombol-merah:hover {
+  background:#D5B048;
+  color:rgb(0, 0, 0);
+  border-radius: 5px;
+  padding:5px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+hr {
+  border: 0;
+  border-top: 3px double #b8ff06;
+}
